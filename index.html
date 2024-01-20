@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rehan Fitness</title>
+</head>
+
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background: url(barbell-g008a68182_1280.jpg);
+            color: #fff;
+            /* background-size: cover; */
+        }
+        .left{
+            display: inline-block;
+            position: absolute;
+            left: 40px;
+            top: 20px;
+            
+
+        }
+        .mid{
+            display: block;
+            width: 33%;
+            margin: 20px auto;
+            border: 2px solid green;
+
+        }
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+            border: 2px solid yellow;
+
+        }
+        .left img{
+            width: 120px;
+            
+        }
+        .left div{
+            text-align: center;
+            color: blue;
+            line-height: 19px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 15px;
+        }
+        .navbar li a{
+            color: #ffff;
+            text-decoration: none;
+            padding: 34px 23px;
+            
+        }
+        .navbar li a:hover , .navbar li a.active{
+            text-decoration: underline;
+            color: aqua;
+            
+        }
+        .btn{
+            margin: 7px 9px;
+            color: #ffff;
+            background-color: black;
+            padding: 4px 14px;
+            border: 2px solid green;
+            font-size: 12px;
+            border-radius: 6px;
+            cursor: pointer;
+
+        }
+        .btn:hover{
+            color: blue;
+        }
+        .container{
+            
+            border: 2px solid rgb(254, 114, 114);
+            top: 500px;
+            margin: 100px 1120px;
+            padding: 15px;
+            width: 23%;
+            border-radius: 28px;
+        }
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 208px;
+            padding: 1px;
+            border: 2px solid rgb(131, 125, 245);
+            margin: 11px auto;
+            font-size: 20px;
+            border-radius: 8px;
+            background: transparent;
+        }
+        .container h1{
+            text-align: center;
+            color: grey;
+        }
+        .container button{
+            display: block;
+            width: 40%;
+            margin: 20px auto;
+        }
+
+    </style>
+    <body>
+    
+        <header class="header">
+            <div class="left">
+                <img src="olympic-g7aef23c5b_1280.jpg">
+                <div>
+                    Rehan Fitness
+                </div>
+            </div>
+
+            <div class="mid">
+             
+             <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Centre</a></li>
+                <li><a href="#">Contact US</a></li>
+          </ul>
+            </div>
+            
+            <div class="right">
+             <button class="btn">Call Us</button>
+             <button class="btn">Book Now</button>
+            </div>
+        </header>
+        <div class="container">
+            <h1>Join The GYM Now</h1>
+            <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Age">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Gender">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Locality">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Email Id">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Phone No.">
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+</body>
+</html>
